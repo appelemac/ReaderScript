@@ -15,5 +15,5 @@
     var el = elements[i];
         el.innerHTML = "cool";
     }
-    alert("cool");
+    
 })();
