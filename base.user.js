@@ -13,7 +13,7 @@
     var elements = document.getElementsByClassName("entry-title"); 
     for (var i = 0; i <elements.length; i++) {
     var el = elements[i];
-        el.InnerHTML = "cool";
+        el.innerHTML = "cool";
     }
-    
+    alert("cool");
 })();
