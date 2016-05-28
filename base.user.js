@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reader
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.21
 // @description  Load every Chapter
 // @author       Appelemac
 // @include      http://gravitytales.com/*
