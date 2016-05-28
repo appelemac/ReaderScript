@@ -3,8 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Load every Chapter
-// @author       You
-// @match        http://gravitytales.com/zhan-long/
+// @author       Appelemac
+// @include      http://gravitytales.com/*
 // @grant        none
 // ==/UserScript==
 
