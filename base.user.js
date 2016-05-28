@@ -9,10 +9,11 @@
 // ==/UserScript==
 
 function allInnerLinks() {
+    var anchors = document.getElementsByTagName("a");
     list = new Array();
     for (var i =0; i< anchors.length; i++) {
         var a = anchors[a];
-        if (a.href != null) {
+        if (a.href !== null) {
             var str = String(a.href);
             if (str.search(document.location.href) != -1) {
                 list[list.length] = str;
@@ -37,7 +38,7 @@ function byName(a, b) {
     var el = elements[i];
         el.innerHTML = "cool";
     }
-    var anchors = document.getElementsByTagName("a");
+    
     var li = allInnerLinks();
     li.sort(vyName);
     alert(li);
